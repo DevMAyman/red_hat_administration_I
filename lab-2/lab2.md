@@ -10,42 +10,131 @@
 ### 3. Create a supplementary (Secondary) group called pgroup with group ID of 30000
 
 <img src="./pics/3.png"/>
-4. Create a supplementary group called badgroup
-5. Add islam user to the pgroup group as a supplementary group
-6. Modify the password of islam's account to password
-7. Modify islam's account so the password expires after 30 days
-8. Lock bad user account so he can't log in
-9. Delete bad user account
-10. Delete the supplementary group called badgroup.
-13. Create a folder called myteam in your home directory and change its permissions to
-read only for the owner.
-14. Log out and log in by another user
-15. Try to access (by cd command) the folder (myteam)
-16. Using the command Line
- Change the permissions of oldpasswd file to give owner read and write
-permissions and for group write and execute and execute only for the others
-(using chmod in 2 different ways)
- Change your default permissions to be as above.
- What is the maximum permission a file can have, by default when it is just
-created? And what is that for directory.
- Change your default permissions to be no permission to everyone then create a
-directory and a file to verify.
 
-LAB2
 
-Made with by 2
+### 4. Create a supplementary group called badgroup
 
-17. What are the minimum permission needed for:
- Copy a directory (permission for source directory and permissions for target
-parent directory)
- Copy a file (permission for source file and and permission for target parent
-directory)
- Delete a file
- Change to a directory
- List a directory content (ls command)
- View a file content (more/cat command)
- Modify a file content
-18. Create a file with permission 444. Try to edit in it and to remove it? Note what
-happened.
-19. What is the difference between the “x” permission for a file and for a
-directory?
+<img src="./pics/3.png"/>
+
+
+### 5. Add islam user to the pgroup group as a supplementary group
+
+<img src="./pics/5.png"/>
+
+
+### 6. Modify the password of islam's account to password
+
+<img src="./pics/6.png"/>
+
+
+### 7. Modify islam's account so the password expires after 30 days
+
+<img src="./pics/7.png"/>
+
+
+### 8. Lock bad user account so he can't log in
+
+<img src="./pics/8.png"/>
+
+
+### 9. Delete bad user account
+
+<img src="./pics/9.png"/>
+
+
+### 10. Delete the supplementary group called badgroup.
+
+<img src="./pics/10.png"/>
+
+
+### 13. Create a folder called myteam in your home directory and change its permissions to <br/> read only for the owner.
+
+<img src="./pics/13.png"/>
+
+
+### 14. Log out and log in by another user
+
+<img src="./pics/14.png"/>
+
+
+### 15. Try to access (by cd command) the folder (myteam)
+
+<img src="./pics/15.png"/>
+
+
+### 16. Using the command Line
+####    - Change the permissions of oldpasswd file to give owner read and write<br/>permissions and for group write and execute and execute only for the others<br/>(using chmod in 2 different ways)
+
+<img src="./pics/16.png"/>
+
+
+####    - Change your default permissions to be as above.
+
+<img src="./pics/16-2.png"/>
+
+
+####    - What is the maximum permission a file can have, by default when it is just <br>created? And what is that for directory.
+
+<img src="./pics/16-3.png"/>
+
+
+####    - Change your default permissions to be no permission to everyone then create a <br/> directory and a file to verify.
+
+<img src="./pics/16-4.png"/>
+
+
+### 17. What are the minimum permission needed for:
+####    - Copy a directory (permission for source directory and permissions for target parent directory)
+
+src ==> 400
+dest ==> 300
+<img src="./pics/17-1.png"/>
+
+####    - Copy a file (permission for source file and and permission for target parent directory)
+
+file ==> 400 (r--)
+srcdir ==> 100 (--x)
+destdir ==> 300 (-wx)
+<img src="./pics/17-2.png"/>
+
+
+####    - Delete a file
+
+srcdir ==> 300 (-wx)
+<img src="./pics/17-3.png"/>
+
+
+####    - Change to a directory
+
+dir  ==> 100 (--x)
+<img src="./pics/17-4.png"/>
+
+
+####    - List a directory content (ls command)
+
+dir ==> 400 (r--)
+<img src="./pics/17-5.png"/>
+
+
+####    - View a file content (more/cat command)
+
+file ==> 400 (r--)
+<img src="./pics/17-6.png"/>
+
+
+####    - Modify a file content
+
+file ==> 300 (-w-)
+<img src="./pics/17-3.png"/>
+
+
+### 18. Create a file with permission 444. Try to edit in it and to remove it? Note what happened.
+
+<img src="./pics/18-1.png"/>
+<img src="./pics/18-2.png"/>
+ i can not edit but i can remove it (because of its parent usrs has permission -wx)
+
+### 19. What is the difference between the “x” permission for a file and for a directory?
+
+x ==> execute file 
+x ==> cd on directory 
