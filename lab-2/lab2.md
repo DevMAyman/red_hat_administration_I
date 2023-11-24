@@ -124,7 +124,7 @@ file ==> 400 (r--)<br/>
 
 ####    - Modify a file content
 
-file ==> 300 (-w-)<br/>
+file ==> 200 (-w-) "non-interactive" <br/> ==> 600 "interactive"
 <img src="./pics/17-3.png"/>
 
 
