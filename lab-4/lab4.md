@@ -23,8 +23,8 @@
 
 <img src="./pics/06.png"/>
 <img src="./pics/06-1.png"/>
-<img src="./pics/06-02.png"/>
 <img src="./pics/06-03.png"/>
+<img src="./pics/06-04.png"/>
 
 ### 7. Display the number of users who is logged now to the system.
 
