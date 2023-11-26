@@ -45,13 +45,19 @@ using "ctrl+e" in command mode
 
 <img src="./pics/09-1.png"/>
 <img src="./pics/09-2.png"/>
+
 ### 10.Execute the following command :
 #### echo \ then press enter
+
 <img src="./pics/10-1.png"/>
 #### What is the purpose of \ ?
 to open second prompt to enter string for echo
 #### Notice the prompt ”>” what is that? and how can you change it from “>” to “:”.
+
 <img src="./pics/10-02.png"/>
+
 <img src="./pics/10-03.png"/>
+
 ### 11.Create a Bash shell alias named ls for the “ls –l” command
+
 <img src="./pics/11.png"/>
