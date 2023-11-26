@@ -50,8 +50,11 @@ using "ctrl+e" in command mode
 #### echo \ then press enter
 
 <img src="./pics/10-1.png"/>
+
 #### What is the purpose of \ ?
+
 to open second prompt to enter string for echo
+
 #### Notice the prompt ”>” what is that? and how can you change it from “>” to “:”.
 
 <img src="./pics/10-02.png"/>
