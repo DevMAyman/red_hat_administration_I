@@ -1,4 +1,4 @@
-### 1. List the user commands and redirect the output to /tmp/commands.list
+### 1. List the user commands and redirect the output to /tmp/commands.list</font>
 <img src="./pics/01.png"/>
 <img src="./pics/01-01.png"/>
 
